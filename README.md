@@ -42,6 +42,11 @@ Este script tem o objeto de gerar o arquivo posicional de entrada. Sua construç
 - **save_file_top_five(top_five, file_path)**
 Salva o relatório em txt no diretório recebido como parâmetro.
 
+## main.py
+---
+ Este script tem o objeto executar o processo em geral. 
+ Gerar o arquivo de entrada e o relatório com o top 5. 
+
 ## Decisões de projeto e justificativas
 ---
 **Gerar o arquivo de entrada:**
