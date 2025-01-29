@@ -91,6 +91,8 @@ Execute o seguinte comando:
 
 `python main.py`
 
+E verifique se os dois arquivos foram gerados/atualizados na paste files.
+
 
 
 
