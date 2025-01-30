@@ -18,8 +18,8 @@ def process_file(file_path):
     try:
         with open(file_path, 'r') as file:
             for line in file:
-                order_number, unit_value = process_line(line)
-                orders.append((order_number, unit_value))
+                order_number, total_value = process_line(line)
+                orders.append((order_number, total_value))
         order_sorted = sorted(orders, key=lambda x: x[1], reverse=True)
         five_orders = order_sorted[:5]
         return five_orders
